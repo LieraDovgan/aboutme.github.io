@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "start:local": "gulp sync",
+    "start:local": "gulp && gulp sync",
     "start": "npm run build && node dist/src/server.min.js"
   },
   "keywords": [],
